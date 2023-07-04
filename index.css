@@ -1,0 +1,97 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth !important;
+}
+
+.dropdown-menu {
+    border: none !important;
+    border-radius: 18px !important;
+    
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block !important;
+    margin-top: 0 !important; 
+}
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: block;
+    transform: scale(0);
+    transition: ease-out 0.3s;
+}
+.dropdown:hover .dropdown-menu {
+    transform: scale(1);
+}
+.bg_color {
+    background-color: rgba(137, 43, 226, 0.103);
+  }
+  .main_heading {
+    font-weight: bold !important;
+    color: rgb(37, 0, 105) !important;
+    font-size: 3rem;
+  }
+  .text_ {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .secondary_head {
+    font-weight: bold !important;
+    color: blueviolet !important;
+    font-size: 2rem;
+  }
+  .secondary_head_3 {
+    font-weight: bold !important;
+    color: rgb(43, 64, 133) !important;
+    font-size: 2rem;
+  }
+  .secondary_head_2 {
+    font-weight: bold !important;
+    color: rgb(150, 38, 150) !important;
+    font-size: 2rem;
+  }
+  .main_heading_2{
+font-size: 2.2rem !important;
+color: rgb(37, 0, 105) !important;
+
+  }
+  .main_heading_1{
+color: rgb(37, 0, 105) !important;
+    
+  }
+  .btn-primary{
+    background-color: rgb(37, 0, 105) !important;
+  }
+  .main_heading_3{
+    font-size: 1rem !important;
+  }
+  a{
+    text-decoration: none !important;
+  }
+  .link{
+    color: rgb(255, 5, 67);
+  }
+  .big_div{
+    position: relative;
+    background-color: rgba(37, 0, 105, 0.822) !important;
+
+  }
+  .small_div{
+    position: absolute;
+    bottom: 90% !important;
+    right: 6%;
+    left: 6%;
+  }
